@@ -27,9 +27,14 @@ module.exports = {
             ],
         }
     },
+
     devServer: {
         disableHostCheck: true
-    }
+    },
+
+    transpileDependencies: [
+      'vuetify'
+    ]
 }
 
 // InjectManifest 모드
