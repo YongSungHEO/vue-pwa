@@ -33,3 +33,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
 vue inspect > output.js
 ```
+
+### Cordova
+
+To build native app use cordova.
+
+```
+npm install -g cordova
+vue add cordova
+```
